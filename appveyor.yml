@@ -39,4 +39,8 @@ on_success:
   - git remote set-url origin https://github.com/IronVulture/OOOneWeb.git
   - git add -A
   - git commit -a -m "Commit from AppVeyor"
+  # remove extrafiles before stage
+  - git rm config.wyam.dll
+  - git rm config.wyam.hash
+  - git rm config.wyam.packages.xml
   - git push
