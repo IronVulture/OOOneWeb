@@ -43,4 +43,5 @@ on_success:
   - git rm --cached config.wyam.dll
   - git rm --cached config.wyam.hash
   - git rm --cached config.wyam.packages.xml
+  - git commit -a -m "Remove Configs"
   - git push
