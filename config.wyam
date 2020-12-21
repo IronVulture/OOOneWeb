@@ -4,5 +4,6 @@
 Settings[Keys.Host] = "host.com";
 Settings[DocsKeys.Title] = "OOOne Docs";
 Settings[Keys.LinkRoot] = "/OOOneWeb";
+Settings[Keys.LinksUseHttps] = true;
 
 // Add any pipeline customizations here
