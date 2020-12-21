@@ -1,0 +1,14 @@
+{
+    "name": "com.ooonestudio.oooneunitytools",
+    "displayName": "OOOne Unity Tools",
+    "version": "1.2.0",
+    "unity": "2020.1",
+    "unityRelease": "2f1",
+    "description": "",
+    "keywords": [],
+    "category": "tool",
+    "author": "",
+    "license": "MIT",
+    "type": "Tool",
+    "hideInEditor": false
+}
