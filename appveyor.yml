@@ -38,5 +38,9 @@ on_success:
   # EDIT the origin of your repository - have to reset it here because AppVeyor pulls from SSH, but GitHub won't accept SSH pushes
   - git remote set-url origin https://github.com/IronVulture/OOOneWeb.git
   - git add -A
+  # remove extrafiles
+  - git rm config.wyam.dll
+  - git rm config.wyam.hash
+  - git rm config.wyam.packages.xml
   - git commit -a -m "Commit from AppVeyor"
   - git push
