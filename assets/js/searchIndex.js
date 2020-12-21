@@ -53,48 +53,20 @@ var searchModule = function() {
     a(
         {
             id:1,
-            title:"CSharpFileUtility",
-            content:"CSharpFileUtility",
+            title:"UnityPathUtilityTests",
+            content:"UnityPathUtilityTests",
             description:'',
             tags:''
         },
         {
-            url:'/api/OOOneUnityTools.Editor/CSharpFileUtility',
-            title:"CSharpFileUtility",
+            url:'/api/OOOneUnityTools.Editor.Tests/UnityPathUtilityTests',
+            title:"UnityPathUtilityTests",
             description:""
         }
     );
     a(
         {
             id:2,
-            title:"UnityFileUtilityTests",
-            content:"UnityFileUtilityTests",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/api/OOOneUnityTools.Editor.Tests/UnityFileUtilityTests',
-            title:"UnityFileUtilityTests",
-            description:""
-        }
-    );
-    a(
-        {
-            id:3,
-            title:"AutoOrderInLayer",
-            content:"AutoOrderInLayer",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/api/OOOneUnityTools/AutoOrderInLayer',
-            title:"AutoOrderInLayer",
-            description:""
-        }
-    );
-    a(
-        {
-            id:4,
             title:"TextureColor",
             content:"TextureColor",
             description:'',
@@ -108,21 +80,7 @@ var searchModule = function() {
     );
     a(
         {
-            id:5,
-            title:"TestRunnerEditor",
-            content:"TestRunnerEditor",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/api/OOOne.Tools.Editor/TestRunnerEditor',
-            title:"TestRunnerEditor",
-            description:""
-        }
-    );
-    a(
-        {
-            id:6,
+            id:3,
             title:"UnityFileUtility",
             content:"UnityFileUtility",
             description:'',
@@ -136,15 +94,57 @@ var searchModule = function() {
     );
     a(
         {
-            id:7,
-            title:"UnityPathUtilityTests",
-            content:"UnityPathUtilityTests",
+            id:4,
+            title:"TestRunnerEditor",
+            content:"TestRunnerEditor",
             description:'',
             tags:''
         },
         {
-            url:'/api/OOOneUnityTools.Editor.Tests/UnityPathUtilityTests',
-            title:"UnityPathUtilityTests",
+            url:'/api/OOOne.Tools.Editor/TestRunnerEditor',
+            title:"TestRunnerEditor",
+            description:""
+        }
+    );
+    a(
+        {
+            id:5,
+            title:"UnityFileUtilityTests",
+            content:"UnityFileUtilityTests",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/api/OOOneUnityTools.Editor.Tests/UnityFileUtilityTests',
+            title:"UnityFileUtilityTests",
+            description:""
+        }
+    );
+    a(
+        {
+            id:6,
+            title:"SecTextureData",
+            content:"SecTextureData",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/api/OOOneUnityTools.Editor/SecTextureData',
+            title:"SecTextureData",
+            description:""
+        }
+    );
+    a(
+        {
+            id:7,
+            title:"UnityFileUtility FileType",
+            content:"UnityFileUtility FileType",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/api/OOOneUnityTools.Editor/FileType',
+            title:"UnityFileUtility.FileType",
             description:""
         }
     );
@@ -165,28 +165,28 @@ var searchModule = function() {
     a(
         {
             id:9,
-            title:"SecTextureData",
-            content:"SecTextureData",
+            title:"AutoOrderInLayer",
+            content:"AutoOrderInLayer",
             description:'',
             tags:''
         },
         {
-            url:'/api/OOOneUnityTools.Editor/SecTextureData',
-            title:"SecTextureData",
+            url:'/api/OOOneUnityTools/AutoOrderInLayer',
+            title:"AutoOrderInLayer",
             description:""
         }
     );
     a(
         {
             id:10,
-            title:"UnityFileUtility FileType",
-            content:"UnityFileUtility FileType",
+            title:"CSharpFileUtility",
+            content:"CSharpFileUtility",
             description:'',
             tags:''
         },
         {
-            url:'/api/OOOneUnityTools.Editor/FileType',
-            title:"UnityFileUtility.FileType",
+            url:'/api/OOOneUnityTools.Editor/CSharpFileUtility',
+            title:"CSharpFileUtility",
             description:""
         }
     );
