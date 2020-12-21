@@ -3,5 +3,6 @@
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "host.com";
 Settings[DocsKeys.Title] = "OOOne Docs";
+Settings[Keys.LinkRoot] = "/OOOneWeb";
 
 // Add any pipeline customizations here
